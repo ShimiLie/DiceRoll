@@ -6,3 +6,22 @@ function rollDice() {
     result.innerHTML = "You have rolled " + roll + "!";
 };
 
+
+// test
+function testroll(a) {
+    return roll = Math.floor(Math.random() * a) + 1;
+
+};
+
+if (testroll(4) <= 4) {
+    console.log("true");
+} else {
+    console.log("false");
+};
+
+if (testroll(5) > 5 ) {
+    console.log("false");
+} else {
+    console.log("true");
+};
+
