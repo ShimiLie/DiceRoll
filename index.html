@@ -12,17 +12,24 @@
 <body>
 
 <header>
-    <h3> Roll your Die!</h3>
-    <p>How many faces does your dice have? </p>
-    <input type="number" min="1" max="10" id="face">
+    <h3> Roll your Dice!</h3>
+   
+        
 </header>
 
 <main>
-    
+    <p>How many faces does your dice have? </p>
+
+    <div class="container" >
+        <input type="number" min="1" max="10" id="face">
         <button onclick="rollDice()"> Roll!</button>
-        <h2 id="result">You have rolled: </h2>
-    
+    </div>
+        
 </main>
+
+<div>
+    <h2 id="result">You have rolled: </h2>
+</div>
 
 <script src="script.js"></script>
    
